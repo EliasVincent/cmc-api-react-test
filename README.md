@@ -1,3 +1,12 @@
+# ALWAYS REMOVE PRIVATE API KEY BEFORE COMMITS
+---
+
+# Coinmarketcap API React App
+Basic CRA that uses the Coinmarketcap-API to display stuff.
+**Get your own API key from Coinmarketcap and insert under src/Coins -> key**
+run 'npm start' to test.
+# CRA-DOCUMENTATION:
+---
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
