@@ -1,12 +1,16 @@
-import './App.css';
+import "./App.css";
 
-import Coins from "./Coins"
+import Coins from "./Coins";
+import Footer from "./Footer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>State of Crypto right now:</h1>
-      <Coins />
+    <div>
+      <div className="App">
+        <Coins />
+        
+      </div>
+      <Footer />
     </div>
   );
 }

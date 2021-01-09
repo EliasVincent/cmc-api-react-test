@@ -1,5 +1,42 @@
+body{
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
 .App {
-  margin-top: 10%;
-  margin-bottom: 10%;
+  position: relative;
+  height: 100%;
+
   text-align: center;
+
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: rgb(0, 0, 39);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+}
+
+.coinComponent{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.coinText{
+  font-size: large;
+}
+
+.numbers{
+  color:aqua;
+}
+
+.footer{
+  font-size: small;
+  text-align: right;
+  margin-right: 5vw;
+}
+
+a{
+  color: rgb(92, 92, 255);
 }

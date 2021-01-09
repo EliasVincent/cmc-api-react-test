@@ -27,16 +27,18 @@ class Coins extends React.Component {
     //response.data.quote.USD.total_market_cap
     render() {
         return(
-            <div>
+            <div className="coinComponent">
+                <h1>State of Crypto:</h1>
+
                 {this.state.loading ? 
                 <div>loading... {this.state.errorMsg}</div> : 
                 <div>
-                    <div>
-                    Current Market Capitalization:  {this.state.marketcap.data.quote.USD.total_market_cap} US$
+                    <div className="coinText">
+                    Current Market Capitalization:  <p className="numbers">{this.state.marketcap.data.quote.USD.total_market_cap} US$</p> 
                     <br />
-                    Total Trading Volume (24h):     {this.state.marketcap.data.quote.USD.total_volume_24h} US$
+                    Total Trading Volume (24h):     <p className="numbers">{this.state.marketcap.data.quote.USD.total_volume_24h} US$</p> 
                     <br />
-                    Dominance of Bitcoin:           {this.state.marketcap.data.btc_dominance}%
+                    Dominance of Bitcoin:           <p className="numbers">{this.state.marketcap.data.btc_dominance} %</p>
                     <br />
                     
                     </div>
