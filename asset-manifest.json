@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cmc-api-react-test/static/css/main.a32e19bc.chunk.css",
+    "main.js": "/cmc-api-react-test/static/js/main.29c9f76d.chunk.js",
+    "main.js.map": "/cmc-api-react-test/static/js/main.29c9f76d.chunk.js.map",
+    "runtime-main.js": "/cmc-api-react-test/static/js/runtime-main.6eb583dd.js",
+    "runtime-main.js.map": "/cmc-api-react-test/static/js/runtime-main.6eb583dd.js.map",
+    "static/js/2.013b69d2.chunk.js": "/cmc-api-react-test/static/js/2.013b69d2.chunk.js",
+    "static/js/2.013b69d2.chunk.js.map": "/cmc-api-react-test/static/js/2.013b69d2.chunk.js.map",
+    "index.html": "/cmc-api-react-test/index.html",
+    "static/css/main.a32e19bc.chunk.css.map": "/cmc-api-react-test/static/css/main.a32e19bc.chunk.css.map",
+    "static/js/2.013b69d2.chunk.js.LICENSE.txt": "/cmc-api-react-test/static/js/2.013b69d2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6eb583dd.js",
+    "static/js/2.013b69d2.chunk.js",
+    "static/css/main.a32e19bc.chunk.css",
+    "static/js/main.29c9f76d.chunk.js"
+  ]
+}
